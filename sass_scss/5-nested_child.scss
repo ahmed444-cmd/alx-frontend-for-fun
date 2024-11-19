@@ -1,0 +1,9 @@
+/* This file sets the text color for elements inside body, and specific color for .red class as first child of body using nested declarations */
+
+body {
+  color: #3D3D3D;
+
+  > .red {
+    color: #FF0000;
+  }
+}

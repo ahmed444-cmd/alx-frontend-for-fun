@@ -1,0 +1,11 @@
+/* This file assigns font sizes to h1 tags and changes font size for small screens using a media query */
+
+h1 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 14px;
+  }
+}

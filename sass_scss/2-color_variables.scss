@@ -1,0 +1,17 @@
+/* This file assigns colors to text and background for body, p, and h2 tags using Sass variables */
+
+$primary-text-color: #3D3D3D;
+$secondary-bg-color: #6D6D6D;
+
+body {
+  color: $primary-text-color;
+  background-color: $secondary-bg-color;
+}
+
+p {
+  color: $primary-text-color;
+}
+
+h2 {
+  background-color: $secondary-bg-color;
+}
