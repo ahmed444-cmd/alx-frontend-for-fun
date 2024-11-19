@@ -1,0 +1,10 @@
+/* This file defines the primary text color for the body and paragraph tags */
+$primary-color: #3D3D3D;
+
+body {
+  color: $primary-color;
+}
+
+p {
+  color: $primary-color;
+}
