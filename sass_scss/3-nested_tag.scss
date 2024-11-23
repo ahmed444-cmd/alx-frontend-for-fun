@@ -1,9 +1,8 @@
-/* Margin and padding for body, and margin for p tags inside body using nested declarations */
+/* using nested declaration */
 body {
-  margin: 0;
-  padding: 0;
-
-  p {
-    margin: 10px;
-  }
+    margin: 0px;
+    padding: 0px;
+    p {
+        margin: 10px;
+    }
 }
