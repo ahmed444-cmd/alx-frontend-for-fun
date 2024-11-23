@@ -1,8 +1,9 @@
-/* Text color for button tags and changes color on hover using nested declarations */
+/* Text color for button & changes color on hover
+using nested declarations */
 button {
-  color: #FF0000;
+    color: #FF0000;
 
-  &:hover {
-    color: #00FF00;
-  }
+    &:hover {
+        color: #00FF00;
+    }
 }
